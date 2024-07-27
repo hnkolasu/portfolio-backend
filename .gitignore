@@ -1,0 +1,21 @@
+node_modules/
+.env*
+
+.eslintcache
+
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# Dependency directories
+
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+node_modules
+node_modules
