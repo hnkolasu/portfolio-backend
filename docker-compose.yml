@@ -1,9 +1,9 @@
 version: '3.9'
 services:
-  pantry-tracker-db:
+  porfolio:
     image: postgres
     restart: always
-    container_name: pantry-tracker-db
+    container_name: portfolio
     ports:
       - 5435:5432
     environment:
@@ -14,7 +14,3 @@ services:
 
 volumes:
   postgres:
-# postgresql://postgres:example@localhost:5435/postgres"
-# postgresql://nicolas:123456@HOST:5432/portfolio-backend-db-1
-# postgresql://nicas:nicas@localhost:5432/portfolio?schema=public
-
