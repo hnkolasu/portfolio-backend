@@ -3,7 +3,7 @@ services:
   portfolio:
     image: postgres
     restart: always
-    container_name: portfolio
+    container_name: site-portfolio-backend
     ports:
       - 5435:5432
     environment:
